@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/hero.scss","layout/hero.css"],"names":[],"mappings":"AACE,mBAEE,UAAA,CADA,SCCJ","file":"hero.css","sourcesContent":[".section-hero {\r\n  &__img {\r\n    width: 50%;\r\n    height: 50%;\r\n  }\r\n}\r\n",".section-hero__img {\n  width: 50%;\n  height: 50%;\n}"]}

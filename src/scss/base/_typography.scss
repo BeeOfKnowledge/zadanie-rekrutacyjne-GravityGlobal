@@ -1,0 +1,19 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: $color-dark;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.section-hero__title {
+  font-size: 4.2rem;
+  line-height: 5.04rem;
+  margin-bottom: 2.4rem;
+}
+
+.section-hero__description {
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  margin-bottom: 3.2rem;
+}
