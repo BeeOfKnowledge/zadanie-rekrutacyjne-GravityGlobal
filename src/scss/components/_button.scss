@@ -8,11 +8,23 @@
   border-radius: 100px;
   max-width: 12.8rem;
   height: 4.8rem;
+  cursor: pointer;
 
   &__link {
     text-decoration: none;
     color: $color-white;
     font-weight: 700;
     font-size: 1.6rem;
+  }
+
+  &:hover {
+    background-color: $color-button-hover;
+    transform: translateY(-0.5rem);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.1);
+  }
+
+  &:active {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 0.3rem 0.5rem rgba($color-black, 0.1);
   }
 }
