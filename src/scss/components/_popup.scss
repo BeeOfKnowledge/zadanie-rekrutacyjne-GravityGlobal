@@ -1,0 +1,28 @@
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $color-white;
+  width: 92rem;
+  height: 21rem;
+  z-index: 2;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup.hide {
+  display: none;
+}
+
+.overlay.hide {
+  display: none;
+}
