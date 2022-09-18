@@ -6,7 +6,7 @@
   color: $color-white;
   background-color: $color-button;
   border-radius: 100px;
-  max-width: 12.8rem;
+  width: 12.8rem;
   height: 4.8rem;
   cursor: pointer;
   border: none;
@@ -28,4 +28,13 @@
     transform: translateY(-0.2rem);
     box-shadow: 0 0.3rem 0.5rem rgba($color-black, 0.1);
   }
+}
+
+.btn--popup {
+  margin-top: 1.2rem;
+  width: 12.8rem;
+}
+
+.btn--popup.hide {
+  display: none;
 }

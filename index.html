@@ -48,7 +48,17 @@
       <div id="overlay" class="overlay hide"></div>
       <div id="popup" class="popup hide">
         <h3 class="popup__title">Alert!</h3>
-        <p class="popup__description">You have clicked</p>
+        <p id="popup__description" class="popup__description">
+          You have clicked <b id="popup__clicks"></b> to related button.
+        </p>
+        <button id="btn--popup" class="btn btn--popup hide">
+          <a href="#" class="btn__link">Reset</a>
+        </button>
+        <ion-icon
+          name="close-outline"
+          id="popup__icon"
+          class="popup__icon"
+        ></ion-icon>
       </div>
     </main>
   </body>
