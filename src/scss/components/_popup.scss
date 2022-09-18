@@ -7,6 +7,19 @@
   width: 92rem;
   height: 21rem;
   z-index: 2;
+  padding: 5.6rem 9.5rem;
+
+  &__title {
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+    line-height: 1.2;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
 }
 
 .overlay {
