@@ -11,10 +11,12 @@
     flex-direction: column;
     width: 38rem;
     justify-content: center;
+    animation: moveInRight 1s;
   }
 
   &__img {
     width: 35%;
     height: 35%;
+    animation: moveInLeft 1s;
   }
 }
